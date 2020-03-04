@@ -1,0 +1,47 @@
+#form_home{
+   font-size:13px;
+   font-weight: bold;
+   margin:80px auto;
+   width:240px;
+   height:100px;
+   padding:10px;
+   background: #EDEDED;
+}
+
+#form_home label{
+    width: 60px;
+    float: left;
+    text-align:right;
+    margin-right:5px;
+    color: blue;
+    padding-top:5px;
+}
+
+#form_home .olvide, from_home .olvide a:link, #form_home .olvide a:visited{
+    font-size:10px;
+    text-align:left !important;
+    width: 150px;
+    text-decoration:none;
+    font-weight: normal;
+    margin-left:5px;   
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+        margin-left: 100%
+    }
+    to{
+        transform: rotate(360deg);
+        margin-left: 0%
+    }
+}
+
+.imgr{
+    -webkit-animation:3s rotate linear infinite;
+    animation:2s rotate linear infinite;
+   -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    
+}
